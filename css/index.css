@@ -1,11 +1,14 @@
-body {
+body, html {
+    font-family: 'PT Serif Caption', serif;
     background-color: rgb(255, 255, 255);
+    max-width: 980px;
+    margin: 0 auto;
 }
 
 .jum {
     margin-top: 50px;
     margin-bottom: 0;
-    background-image: url("../img/bg-macbook.jpg");
+    background-image: url("../img/bg-code.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -16,6 +19,9 @@ body {
     font-size: 50px;
 }
 
+.easy-info {
+    text-align: center;
+}
 
 
 header .display-3 {
@@ -44,4 +50,45 @@ header .basic-information {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+}
+
+.fa {
+    color: #343a40;
+}
+.footer-name b{
+    color: black;
+}
+
+.bt-resume {
+    padding: 1rem;
+}
+
+
+
+.bt-resume:hover {
+   border: 2px solid orange;
+   box-shadow: 1px 3px 1px orange;
+}
+
+.bt-resume:active {
+   background: orange;
+   color: black;
+}
+
+.bt-contact{
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 45px 10px 45px;
+}
+
+.bt-contact:hover {
+    border: 1px solid orange;
+   box-shadow: 1px 3px 1px orange;
+   
+}
+
+.fa:hover {
+    transform: translateY(15%);
+
+    
 }
