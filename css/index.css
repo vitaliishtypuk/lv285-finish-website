@@ -89,6 +89,14 @@ header .basic-information {
 
 .fa:hover {
     transform: translateY(15%);
-
     
+}
+.close{
+    display: none;
+}
+#thank-dialog-close{
+    color: orange;
+}
+#error-dialog-close{
+    color: red;
 }
